@@ -12,4 +12,4 @@ class users(models.Model):
     email = models.CharField(max_length=50)
     password = models.CharField(max_length=50)
     type = models.CharField(max_length=50, choices=TYPE)
-    
+    mobno = models.IntegerField(max_length=10)

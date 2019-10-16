@@ -46,7 +46,7 @@
 						Sign Up
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Select any state!">
+					<div class="wrap-input100" >
 						<span class="label-input100">User Type</span>
 						<div class="input100">
 									{{form.user_type.errors}}
@@ -66,6 +66,13 @@
 						<span class="label-input100">Email</span>
 						<br><br>
 						{{form.email}}
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<span class="label-input100">Mobile Number</span>
+						<br><br>
+						{{form.mobno}}
 						<span class="focus-input100"></span>
 					</div>
 
